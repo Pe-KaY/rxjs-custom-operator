@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html{
+    color-scheme: light dark;
+}
+
+body{
+    height: 100vh;
+    place-content: center;
+}
